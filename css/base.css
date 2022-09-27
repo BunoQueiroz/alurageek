@@ -1,0 +1,13 @@
+:root {
+    /*Colors variables*/
+    --azul: #2A7AE4;
+    --cinza-forte: #464646;
+    --conza-fraco: #A2A2A2;
+
+    /*Fonts variables*/
+    --fonte-padrao: 'Work Sans';
+}
+
+.container {
+    padding: 2rem 8%;
+}
