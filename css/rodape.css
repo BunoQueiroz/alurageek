@@ -1,0 +1,10 @@
+.rodape {
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.rodape__autoria {
+    font-family: sans-serif;
+    color: var(--cinza-forte);
+    line-height: 1.2rem;
+}
