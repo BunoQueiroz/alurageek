@@ -6,29 +6,7 @@
 
 .cabecalho__logo-e-pesquisa {
     display: flex;
-}
-
-.cabecalho__logo {
-    width: 30%;
-    display: flex;
-    align-items: center;
-    padding: 0 3rem 0 0;
-}
-
-.cabecalho__controle {
-    width: 25%;
-    padding: 0 .2rem 0 0;
-}
-
-.cabecalho__alura {
-    color: var(--azul);
-    font-size: 1.5rem;
-    font-family: var(--fonte-padrao);
-    font-weight: bold;
-}
-
-.cabecalho__geek {
-    color: var(--cinza-forte);
+    width: 60%;
 }
 
 .cabecalho__pesquisa {
@@ -44,6 +22,11 @@
     color: var(--cinza-fraco);
     border: none;
     background-color: transparent;
+    width: 100%;
+}
+
+.cabecalho__entrada:focus {
+    outline: none;
 }
 
 .cabecalho__pesquisar {

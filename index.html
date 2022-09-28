@@ -9,17 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@300;400;600&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/logo.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/promocional.css">
     <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/autoria.css">
     <title>Home | AluraGeek</title>
 </head>
 <body>
     <header class="cabecalho container">
         <div class="cabecalho__logo-e-pesquisa">
-            <div class="cabecalho__logo">
-                <img src="img/vector.svg" alt="controle de videogame" class="cabecalho__controle">
-                <p class="cabecalho__alura">Alura<span class="cabecalho__geek">Geek</span></p>
+            <div class="logo">
+                <img src="img/vector.svg" class="logo__imagem" alt="controle videogame">
+                <p class="logo__alura">Alura<span class="logo__geek">Geek</span></p>
             </div>
             <div class="cabecalho__pesquisa">
                 <input type="text" class="cabecalho__entrada" placeholder="O que deseja encontrar?" required>
@@ -37,8 +40,34 @@
             <a href="" class="promocional__botao">Ver Consoles</a>
         </section>
     </main>
-    <footer class="rodape">
-        <p class="rodape__autoria">Desenvolvido por Bruno de Castro<br>2022</p>
+    <footer>
+        <section class="container rodape">
+            <div class="logo">
+                <img src="img/vector.svg" class="logo__imagem" alt="controle videogame">
+                <p class="logo__alura">Alura<span class="logo__geek">Geek</span></p>
+            </div>
+            <div class="sobre">
+                <ul class="sobre__lista">
+                    <li class="sobre__item">Quem somos</li>
+                    <li class="sobre__item">Política de privacidade</li>
+                    <li class="sobre__item">Programa fidelidade</li>
+                    <li class="sobre__item">Nossas lojas</li>
+                    <li class="sobre__item">Quero ser franquiado</li>
+                    <li class="sobre__item">Anuncie aqui</li>
+                </ul>
+            </div>
+            <div class="contato">
+                <h4 class="contato__titulo"></h4>
+                <form action="" class="contato__formulario">
+                    <div class="formulario__item"><label for="" class="formulario__descricao"></label><input type="text" class="formulario__entrada"></div>
+                    <div class="formulario__item"><label for="" class="formulario__descricao"></label><input type="text" class="formulario__entrada"></div>
+                    <input type="text" class="formulario__botao">
+                </form>
+            </div>
+        </section>
+        <section class="autoria">
+            <p class="autoria__descricao">Desenvolvido por Bruno de Castro<br>2022</p>
+        </section>
     </footer>
 </body>
 </html>
