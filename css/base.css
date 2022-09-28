@@ -3,9 +3,11 @@
     --azul: #2A7AE4;
     --cinza-forte: #464646;
     --conza-fraco: #A2A2A2;
+    --branco: #f2f2f2;
 
     /*Fonts variables*/
-    --fonte-padrao: 'Work Sans';
+    --fonte-padrao: 'Work Sans', sans-serif;
+    --fonte-raleway: 'Raleway', sans-serif;
 }
 
 .container {
