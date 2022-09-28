@@ -1,0 +1,25 @@
+.starwars__conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.starwars__imagem , .starwars__nome-produto, .starwars__preco {
+    padding-bottom: .5rem;
+    font-family: var(--fonte-raleway);
+}
+
+.starwars__nome-produto {
+    font-size: .85rem;
+}
+
+.starwars__preco {
+    font-weight: 700;
+}
+
+.starwars__ver-produto {
+    text-decoration: none;
+    color: var(--azul);
+    font-family: var(--fonte-raleway);
+    font-size: .85rem;
+    font-weight: bold;
+}
