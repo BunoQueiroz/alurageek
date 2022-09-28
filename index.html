@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/promocional.css">
     <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/formulario.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/autoria.css">
     <title>Home | AluraGeek</title>
@@ -57,11 +58,18 @@
                 </ul>
             </div>
             <div class="contato">
-                <h4 class="contato__titulo"></h4>
-                <form action="" class="contato__formulario">
-                    <div class="formulario__item"><label for="" class="formulario__descricao"></label><input type="text" class="formulario__entrada"></div>
-                    <div class="formulario__item"><label for="" class="formulario__descricao"></label><input type="text" class="formulario__entrada"></div>
-                    <input type="text" class="formulario__botao">
+                <form action="" class="formulario">
+                    <fieldset class="formulario__componete">
+                        <legend class="formulario__titulo">Fale Conosco</legend>
+                        <div class="formulario__item">
+                            <label for="nome" class="formulario__descricao">Nome</label>
+                            <input id="nome" type="text" class="formulario__entrada">
+                        </div>
+                        <div class="formulario__item">
+                            <textarea class="formulario__entrada" placeholder="Escreva sua mensagem" name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                        </div>
+                        <input type="button" value="Enviar mensagem" class="formulario__botao">
+                    </fieldset>
                 </form>
             </div>
         </section>

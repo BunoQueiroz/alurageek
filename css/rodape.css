@@ -1,3 +1,5 @@
 .rodape {
     background-color: var(--azul-fraco);
+    display: flex;
+    justify-content: space-between;
 }
