@@ -41,3 +41,13 @@
     cursor: pointer;
     background-color: var(--azul-forte);
 }
+
+@media screen and (max-width: 768px) {
+    .formulario {
+        width: auto;
+    }
+
+    .formulario__item {
+        box-shadow: 0 0.5px 1px var(--cinza-fraco);
+    }
+}

@@ -13,3 +13,17 @@
     text-decoration: none;
     color: var(--preto);
 }
+
+@media screen and (max-width: 768px) {
+    .sobre {
+        padding: 2rem 0;
+        text-align: center;
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    .sobre {
+        width: 20rem;
+    }
+}

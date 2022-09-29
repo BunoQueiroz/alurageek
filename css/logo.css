@@ -1,6 +1,5 @@
 .logo {
     text-decoration: none;
-    align-self: flex-start;
     display: flex;
     align-items: center;
     padding: 0 1rem 0 0;
@@ -20,4 +19,17 @@
 
 .logo__geek {
     color: var(--cinza-forte);
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        align-self: center;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        padding: 0;
+    }
 }
