@@ -34,4 +34,10 @@
     border: none;
     background: var(--azul);
     padding: 0.7rem;
+    transition: all .8s;
+}
+
+.formulario__botao:hover {
+    cursor: pointer;
+    background-color: var(--azul-forte);
 }

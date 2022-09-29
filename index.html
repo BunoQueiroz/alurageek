@@ -28,10 +28,12 @@
                 <p class="logo__alura">Alura<span class="logo__geek">Geek</span></p>
             </div>
             <div class="cabecalho__pesquisa">
-                <input type="text" class="cabecalho__entrada" placeholder="O que deseja encontrar?" required>
-                <button class="cabecalho__pesquisar">
-                    <img src="img/geral/lupa.svg" alt="lupa" class="cabecalho__lupa">
-                </button>
+                <form action="POST" class="cabecalho__form">
+                    <input type="text" class="cabecalho__entrada" placeholder="O que deseja encontrar?" required>
+                    <button type="submit" class="cabecalho__pesquisar">
+                        <img src="img/geral/lupa.svg" alt="lupa" class="cabecalho__lupa">
+                    </button>
+                </form>
             </div>
         </div>
         <a href="#" class="cabecalho__login">Login</a>
@@ -194,26 +196,38 @@
             </div>
             <div class="sobre">
                 <ul class="sobre__lista">
-                    <li class="sobre__item">Quem somos</li>
-                    <li class="sobre__item">Política de privacidade</li>
-                    <li class="sobre__item">Programa fidelidade</li>
-                    <li class="sobre__item">Nossas lojas</li>
-                    <li class="sobre__item">Quero ser franquiado</li>
-                    <li class="sobre__item">Anuncie aqui</li>
+                    <li class="sobre__item">
+                        <a href="#" class="sobre__link">Quem somos</a>
+                    </li>
+                    <li class="sobre__item">
+                        <a href="#" class="sobre__link">Política de privacidade</a> 
+                    </li>
+                    <li class="sobre__item">
+                        <a href="#" class="sobre__link">Programa fidelidade</a>
+                    </li>
+                    <li class="sobre__item">
+                        <a href="#" class="sobre__link">Nossas lojas</a>
+                    </li>
+                    <li class="sobre__item">
+                        <a href="#" class="sobre__link">Quero ser franquiado</a> 
+                    </li>
+                    <li class="sobre__item">
+                        <a href="#" class="sobre__link">Anuncie aqui</a>
+                    </li>
                 </ul>
             </div>
             <div class="contato">
-                <form action="" class="formulario">
+                <form action="POST" class="formulario">
                     <fieldset class="formulario__componete">
                         <legend class="formulario__titulo">Fale Conosco</legend>
                         <div class="formulario__item">
                             <label for="nome" class="formulario__descricao">Nome</label>
-                            <input id="nome" type="text" class="formulario__entrada">
+                            <input id="nome" type="text" class="formulario__entrada" required>
                         </div>
                         <div class="formulario__item">
-                            <textarea class="formulario__entrada" placeholder="Escreva sua mensagem" name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                            <textarea class="formulario__entrada" placeholder="Escreva sua mensagem" name="mensagem" id="mensagem" cols="30" rows="5" required></textarea>
                         </div>
-                        <input type="button" value="Enviar mensagem" class="formulario__botao">
+                        <input type="submit" value="Enviar mensagem" class="formulario__botao">
                     </fieldset>
                 </form>
             </div>

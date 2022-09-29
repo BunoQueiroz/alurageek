@@ -27,3 +27,8 @@
     color: var(--azul);
     font-family: var(--fonte-padrao);
 }
+
+.produtos__ver-tudo:hover {
+    transition: all .8s;
+    font-size: 1.1rem;
+}

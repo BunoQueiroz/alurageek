@@ -27,4 +27,9 @@
     padding: 0.7rem 0.5rem;
     width: fit-content;
     background-color: var(--azul);
+    transition: all .8s;
+}
+
+.promocional__botao:hover {
+    background-color: var(--azul-forte);
 }

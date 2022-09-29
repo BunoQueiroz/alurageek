@@ -8,3 +8,8 @@
 .sobre__item {
     font-family: var(--fonte-raleway);
 }
+
+.sobre__link {
+    text-decoration: none;
+    color: var(--preto);
+}

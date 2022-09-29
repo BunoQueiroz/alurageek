@@ -18,15 +18,17 @@
     width: 55%;
 }
 
+.cabecalho__form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .cabecalho__entrada {
     color: var(--cinza-fraco);
     border: none;
     background-color: transparent;
     width: 100%;
-}
-
-.cabecalho__entrada:focus {
-    outline: none;
 }
 
 .cabecalho__pesquisar {
@@ -35,7 +37,7 @@
     padding: 0;
 }
 
-.cabecalho__lipa {
+.cabecalho__lupa {
     background-color: transparent;
     padding: 0;
 }
@@ -47,4 +49,19 @@
     text-decoration: none;
     border: 1px solid var(--azul);
     padding: 1rem 4rem;
+    transition: all .8s;
+}
+
+.cabecalho__login:hover {
+    color: var(--branco);
+    background-color: var(--azul);
+    border-color: var(--azul);
+}
+
+.cabecalho__pesquisar:hover {
+    cursor: pointer;
+}
+
+.cabecalho__entrada:focus {
+    outline: none;
 }
