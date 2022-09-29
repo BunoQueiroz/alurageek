@@ -4,12 +4,15 @@
     --azul-fraco: #EAF2FD;
     --azul-forte: #2a2de4;
     --cinza-forte: #464646;
-    --cinza-fraco: #A2A2A2;
-    --branco: #f2f2f2;
+    --cinza-fraco: #d8d8d8;
+    --branco: #fcfcfc;
 
     /*Fonts variables*/
     --fonte-padrao: 'Work Sans', sans-serif;
     --fonte-raleway: 'Raleway', sans-serif;
+}
+body {
+    background-color: var(--branco);
 }
 
 .container {
