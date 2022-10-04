@@ -13,8 +13,13 @@
     --fonte-padrao: 'Work Sans', sans-serif;
     --fonte-raleway: 'Raleway', sans-serif;
 }
+
 body {
     background-color: var(--background-body);
+}
+
+.principal {
+    background-color: var(--background-login);
 }
 
 .container {
