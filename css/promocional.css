@@ -33,3 +33,13 @@
 .promocional__botao:hover {
     background-color: var(--azul-forte);
 }
+
+@media screen and (max-width: 768px) {
+    .promocional__titulo {
+        font-size: 2rem;
+    }
+
+    .promocional__descricao {
+        font-size: 1rem;
+    }
+}
