@@ -7,7 +7,7 @@
     --cinza-fraco: #f0f0f0;
     --branco: #fbfbfb;
     --background-body: var(--branco);
-    --background-login: #f5f5f5;
+    --transparente: #f5f5f5;
 
     /*Fonts variables*/
     --fonte-padrao: 'Work Sans', sans-serif;
@@ -19,7 +19,7 @@ body {
 }
 
 .principal {
-    background-color: var(--background-login);
+    background-color: var(--transparente);
 }
 
 .container {

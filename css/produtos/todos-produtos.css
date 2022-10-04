@@ -5,6 +5,10 @@
 }
 
 .produtos__cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     font-family: var(--fonte-raleway);
     width: 100%;
     padding-bottom: 1.5rem
@@ -15,7 +19,6 @@
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cinza-forte);
-    padding-bottom: 1.5rem;
 }
 
 .produtos__adicionar {
@@ -63,4 +66,10 @@
     display: flex;
     padding-bottom: 1rem;
     flex-direction: column;
+}
+
+@media screen and (max-width: 540px) {
+    .produtos__titulo {
+        padding-bottom: 1rem;
+    }    
 }
